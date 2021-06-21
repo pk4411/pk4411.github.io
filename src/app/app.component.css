@@ -1,0 +1,89 @@
+
+/* card style */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* justify-content: space-between; */
+  }
+  .card {
+    flex: 0 0 270px;
+    margin: 0 8px 20px;
+    border-radius: 10px;
+    background: #fff;
+    padding:22px;
+    box-sizing: border-box;
+    
+  }
+  .gray-bg{
+      background: #f2f2f2;
+  }
+  .card h3{
+    color:#404a8f;
+  }
+  .card img {
+    max-width: 100%;
+  }
+  .card .info {
+    padding: 0 20px 20px;
+  }
+  .card .info > div {
+        width: 100%;
+        font-weight: bold;
+        margin: 8px 0;
+        font-size: 16px;
+        display: inline-flex;
+    }
+    .card .info > div h4 {
+        font-weight: bold;
+        margin:0 10px 0 0;
+        font-size: 16px;
+        width:50%;
+    }
+    
+
+    .card .info > div > span {
+        font-weight: normal;
+        color:#404a8f;
+    }
+
+    /* left column inside */
+    .left-column h2{
+        margin:0;
+    }
+    .launch-year {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        justify-content: center;
+       
+    }
+    .launch-year button{
+        background:#c5e09b;
+        padding:8px 14px;
+        border:0;
+        border-radius: 5px;
+        margin:8px 20px;
+        min-width: 75px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        color:#3c4433;
+
+    }
+    .launch-year button:hover{
+        background:#7cba01;
+    }
+
+    .left-column h3{
+        margin:10px 0;
+        color: #434343;
+        border-bottom:1px solid #434343;
+        text-align: center;
+        font-weight: normal;
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+
+    @media (min-width:701px){
+}

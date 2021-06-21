@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/space-programe'),
+      dir: require('path').join(__dirname, './coverage/space-launch-program'),
       subdir: '.',
       reporters: [
         { type: 'html' },
